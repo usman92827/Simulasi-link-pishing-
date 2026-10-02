@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulasi Phishing Edukatif</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="container">
+
+    <div class="warning">
+      ⚠️ SIMULASI KEAMANAN — BUKAN HALAMAN LOGIN ASLI
+    </div>
+
+    <section class="login-card">
+
+      <div class="icon">🛡️</div>
+
+      <h1>Login Akun</h1>
+      <p class="subtitle">
+        Ini adalah contoh halaman login untuk latihan mengenali phishing.
+      </p>
+
+      <form id="loginForm">
+
+        <label for="username">Nama pengguna</label>
+        <input
+          type="text"
+          id="username"
+          placeholder="Masukkan nama pengguna"
+          autocomplete="off"
+        >
+
+        <label for="password">Password latihan</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Jangan gunakan password asli"
+          autocomplete="off"
+        >
+
+        <button type="submit">
+          Simulasikan Login
+        </button>
+
+      </form>
+
+      <div id="result" class="result"></div>
+
+      <div class="tips">
+        <h2>🔎 Periksa sebelum login</h2>
+
+        <ul>
+          <li>Periksa alamat website.</li>
+          <li>Jangan asal membuka tautan.</li>
+          <li>Jangan memasukkan password pada situs mencurigakan.</li>
+          <li>Waspadai pesan yang membuat panik atau terburu-buru.</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <footer>
+      Materi latihan keamanan siber • Data tidak dikirim ke server
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
